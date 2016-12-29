@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 numbers = [1,2,3,4,5,6]
 strings = ["Help","!"]
 names = ["john","paul","george","ringo"]
