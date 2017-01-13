@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
-# Classes are essentially template to create your objects.
-
+# classes are essentially template to create your objects.
+# class has data. class has function.
+# class resembles structure.
+# class is model. it like a design drawing of object.
 class Composition:
-    record = "revolver"
-    name = "john"
+    def __init__(self):
+        self.record = ""
+        self.name = ""
 
     def singer(self):
         print("%s is my fave one!!" % self.record)
@@ -20,6 +23,8 @@ class Composition:
         elif self.name == "ringo":
             print("%s sing 'Yellow Submarine'" % self.name)
 
+# instantiate to use class.
+# to create an instance, like this 'instance = <classname>() '
 new = Composition()
 new.record = "revolver"
 new.name = "john"
@@ -30,4 +35,23 @@ new.name = "george"
 new.singer()
 new.name = "ringo"
 new.singer()
+
+# '__init__' is special method.
+# '__init__' method called when instance is created, it called constructor.
+class Printer(object):
+    def __init__(self):
+        self.name = ""
+        self.description = ""
+        print("instance initialized !!")
+
+new = Printer()
+
+# def __init__(self): 'self'. what is ?
+
+class selfer(object):
+    def __init__(self):
+        print("selfs type is " + str(type(self)))
+        print("selfs ref is " + str(self))
+
+new = selfer()
 
