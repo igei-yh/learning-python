@@ -14,4 +14,13 @@ for x in list1:
 
 # if it does not exist, it becomes exception.
 list2 = [1,2,3,4,5]
-print(list2[8])
+#print(list2[8])
+
+
+name = ["john", "paul", "george", "ringo"]
+i = 0
+
+while i < len(name):
+    print(name[i])
+    i += 1
+    
