@@ -8,4 +8,4 @@
 .envrc
 
 # python bytecode cache file
-.pyc
+*.pyc
