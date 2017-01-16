@@ -5,7 +5,13 @@
 .vagrant
 
 # direnv
+.direnv
 .envrc
 
+# python
 # python bytecode cache file
 *.pyc
+# tox
+.tox
+*.egg-info
+
